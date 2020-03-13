@@ -18,25 +18,25 @@ MainMenu::MainMenu(int windowWidth, int windowHeight)
 
 	menu[0].setFont(*font);
 	menu[0].setString("Play");
-	//menu[0].setFillColor(sf::Color(255, 0, 0));
+	menu[0].setFillColor(sf::Color(0, 0, 255));
 	menu[0].setCharacterSize(30);
 	menu[0].setPosition(sf::Vector2f(windowWidth / 2, (windowHeight / NUM_OF_MENU + 1) * 1));
 
 	menu[1].setFont(*font);
 	menu[1].setString("Options");
-	//menu[1].setFillColor(sf::Color(0, 0, 255));
+	menu[1].setFillColor(sf::Color(255, 0, 0));
 	menu[1].setCharacterSize(30);
 	menu[1].setPosition(sf::Vector2f(windowWidth / 2, (windowHeight / NUM_OF_MENU + 1) * 2));
 
 	menu[2].setFont(*font);
 	menu[2].setString("Author");
-	//menu[2].setFillColor(sf::Color(0, 0, 255));
+	menu[2].setFillColor(sf::Color(255, 0, 0));
 	menu[2].setCharacterSize(30);
 	menu[2].setPosition(sf::Vector2f(windowWidth / 2, (windowHeight / NUM_OF_MENU + 1) * 3));
 
 	menu[3].setFont(*font);
 	menu[3].setString("Quit");
-	//menu[3].setFillColor(sf::Color(0, 0, 255));
+	menu[3].setFillColor(sf::Color(255, 0, 0));
 	menu[3].setCharacterSize(30);
 	menu[3].setPosition(sf::Vector2f(windowWidth / 2, (windowHeight / NUM_OF_MENU + 1) * 4));
 
